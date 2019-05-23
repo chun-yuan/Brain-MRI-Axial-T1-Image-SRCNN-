@@ -1,5 +1,6 @@
 # Brain MRI Axial T1 Image SRCNN
 Using Three Layers SRCNN (Proposed by Chao Dong at all) to Brain MRI Axial T1 Image. I programmed with Python tensorflow. Training the model in Google colab.
+Reference github project "tegg89/SRCNN-Tensorflow" and do some improvement.
 
 # How to use the code?
 1. First, you need to execute utils.py, model.py and main.py code. 
@@ -10,3 +11,5 @@ Using Three Layers SRCNN (Proposed by Chao Dong at all) to Brain MRI Axial T1 Im
 # image size and label size setting
 Initial, we separate 255x255 pixel image into N 33x33 pixel sub-image. After convolution caculate, 21x21 piel sub-image will stack back to 252x252 SRCNN image.
 
+# Testing data
+Testing data will be update before 2019/6.
