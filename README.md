@@ -8,7 +8,7 @@ Reference github project "tegg89/SRCNN-Tensorflow" and do some improvement.
 3. Third, after you test the image which you want by the trained model. You can see your SRCNN image in "sample ---> my SRCNN.png file".
 4. Finally, you can caculate the PSNR performance by the .m file "cabips.m". 
 
-# image size and label size setting
+# Image size and label size setting
 Initial, we separate 255x255 pixel image into N 33x33 pixel sub-image. After convolution caculate, 21x21 piel sub-image will stack back to 252x252 SRCNN image.
 
 # Testing data
